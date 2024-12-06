@@ -1,0 +1,178 @@
+---
+title: 'Stats 250: Case Study 4 Report'
+author: "Your Name"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Instructions
+
+Thoroughly read through the assignment instructions (sent via email) and complete the required tasks using the document below.
+
+
+***
+
+
+## Data
+
+The `pirates` data set: Every year, the town of Konstanz, Germany hosts the Annual International Pirating Meeting, where contemporary pirates, scallywags, miscreants, and rapscallions can revel in each other’s company. 
+
+The pirate data set contains responses to a questionnaire given to attendees during the 2015 annual convention. The data below provide a description of each variable in the data.
+
+1. `sex`: the pirate's self reported sex (female, male)
+2. `age`: the pirate's self reported age (in years)
+3. `height`: the pirate's self reported height (in cm)
+4. `weight`: the pirate's self reported weight (in kg)
+5. `headband`: a variable indicating whether the pirate wore a headband to the convention (yes or no)
+6. `eyepatch`: a variable indicating whether the pirate wore an eyepatch to the convention (yes or no)
+7. `college`: the "college" the pirate attended while at the convention (JSSPF or CCCC - see note below) 
+8. `tattoos`: the number of tattoos the pirate sported while at the convention
+9. `tchests`: secret treasure chests were hidden throughout the convention center during the annual conference. This variable indicates the number of treasure chests the pirate found during the conference.
+10. `parrots`: an integer indicating the number of parrots the pirate claimed to have owned in his/her lifetime
+11. `favorite.pirate`: the pirate’s self-reported favorite pirate throughout history (Anicetus, Blackbear, Edward Low, Hook, Jack Sparrow, Lewis Scot)
+12. `sword.type`: the type of sword the pirate reported preferring to use during naval battles (banana, cutlass, sabre, scimitar)
+13. `sword.time`: the time it takes (in seconds) the pirate to draw his/her sword, with smaller times being preferable!
+14. `beard.length`: the pirate's beard length (in cm)
+15. `grogg`: the number of mugs of "grogg" (which was made freely available to all conference attendees) that was consumed by the pirate.
+
+Note: "JSSFP" stands for Jack Sparrow's School of Fashion and Piratery, while "CCCC" stands for Captain Chunk's Cannon Crew
+
+
+Use the following code chunk to read in the data set. 
+
+```{r read_data, include = FALSE}
+load("pirates.rda")
+```
+
+And be sure to load any necessary packages!
+
+```{r load_packages, include = FALSE}
+library(ggplot2)
+library(stats250package)
+```
+
+
+
+## Goal and Analysis
+
+Propose a research question that you believe can be addressed using the available data.  
+
+**Research Question**: Replace this text with your research question.
+
+
+
+Use the code chunks below to complete your analysis. *Note: you might not use all of the code chunks below.* Feel free to delete excess code chunks or leave them in the document.
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+
+\newpage
+
+## Report
+
+## 1. Description of Data
+
+Replace this text with...
+
+
+
+
+## 2. Research Question
+
+Replace this text with...
+
+
+
+
+## 3. Statistical Method
+
+Replace this text with...
+
+
+
+
+## 4. Analysis and Conclusions
+
+Replace this text with...
+
+
+
+
+\newpage
+
+## Word Count
+
+Self-report the word count of your report by following the steps below:
+
+1. Highlight all of the text in the "Report" section above
+2. In the top toolbar, click Edit > Word Count
+3. Report the value of "Selected words" below
+
+**Word Counts:** Replace this text with your word count
+
+
+***
+
+
+## Submission Instructions
+
+Carefully follow the instructions below to properly submit your completed work.
+
+1. At the top of the document, change the `author` field to your name. Do not change any of the other fields (title, date, output).
+
+2. Click the **Knit** button.
+
+3. Click on the file titled `casestudy04_report.pdf` in the bottom right window and confirm that your work has knitted properly. 
+
+4. In the bottom right window, check the box next to `casestudy04_report.pdf`
+
+5. Click More > Export. Note: you may see a gear icon instead of "More". 
+
+6. Click Download and save the file to your computer. Do not change the name of the file ("casestudy04_report.pdf"). 
+
+7. Head to *Canvas* and navigate to the corresponding assignment. Submit your `casestudy04_report.pdf` file!
+
+Congratulations - you have completed the assignment!
+
+
